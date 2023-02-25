@@ -1,0 +1,127 @@
+  .cabecera h1 {
+    text-align: center;
+   
+    font-size: 50px
+    
+}
+h1 {
+    text-align: center;
+    font-size:  250%;
+    color: rgb(255, 254, 254);
+}
+body {
+    background-image: url(IMAGENES/pelis.jpg);
+    height: 1000px;
+    background-position: center;
+    
+    background-size: cover;
+    position: relative;
+  }
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: flex-start;
+   
+    
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 10px;
+    font-size: 8px;
+    
+
+
+  }
+  p {
+    font-size: 150%;
+    color: rgb(0, 0, 0);
+    text-align: justify;}
+    
+  .flex-container h1 {
+    background-color: #000000;
+
+
+  }
+  img {
+    width: 450px;
+    height: 450px;
+  }
+  *{
+margin: 0;
+padding: 0;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+
+
+  }
+.navegacion{
+width: 5000px;
+margin: 100px ;
+
+
+}
+.navegacion ul{ 
+  list-style: none;
+}
+.menu > li{
+position: relative;
+display: inline-block;
+}
+.menu > li > a{
+  display: block;
+  padding: 15px 20px;
+  color: rgb(255, 255, 255);
+  
+}
+.menu li a:haver{
+  background-image: url(IMAGENES/pelis\ 3.jpg); 
+  height: 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  
+}
+.submenu{
+position: absolute;
+background-color: #000000;
+width: 100%;
+visibility: hidden;
+opacity: 0;
+transition: 2s;
+}
+.submenu li a{
+  display: block;
+  padding: 15px;
+  width: 120% ;
+  text-decoration: none;
+
+}
+.menu li:hover .submenu{
+  visibility: visible;
+  opacity: 1;
+
+}
+header{
+  position: relative;
+  width: 100%;
+  min-width: 900px;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ background-image: url(IMAGENES/pelis\ 2.gif); 
+} 
+.seccion h1{
+  background-color: #000000;
+  font-size: 50px;
+
+}
+footer h1 {
+  background-color: #000000;
+  color: #f1f1f1;
+
+}
